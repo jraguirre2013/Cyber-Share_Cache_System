@@ -1,18 +1,14 @@
 ----------------Orion: Cache-Log--------------------
-2014-01-10 16:34:54.578  Requesting service on URLs: [http://www.ask.com, http://www.google.com, http://www.yahoo.com]
-2014-01-10 16:34:54.651  Connecting to the database
-2014-01-10 16:34:55.962  Queying database for: http://www.ask.com
-2014-01-10 16:34:56.075  Submitting VISKO request: http://iw.cs.utep.edu:8080/vlc-visko-interface/HTMLQueryBatchService?jsonSources=%7B%22source_urls%22%3A%5B%7B%22source_url%22%3Ahttp%3A%2F%2Fwww.ask.com%22%7D%5D%7D
-2014-01-10 16:34:57.091  Inserting into database (URL, VIZ, Hash) values('http://www.ask.com', '', '054b5005d1c003ef4022b09e84067f1f')
-2014-01-10 16:34:57.162  Store http://www.ask.com Successful
-2014-01-10 16:34:57.162  Queying database for: http://www.ask.com
-2014-01-10 16:34:57.165  Updating column: Num_Accessed=1 where ID=3
-2014-01-10 16:34:57.166  Record(s) updated
-2014-01-10 16:34:57.167  Illegal operation on empty result set.
-2014-01-10 16:34:57.167  Queying database for: http://www.google.com
-2014-01-10 16:34:57.168  Updating column: Num_Accessed=2 where ID=1
-2014-01-10 16:34:57.182  Record(s) updated
-2014-01-10 16:34:57.182  Queying database for: http://www.yahoo.com
-2014-01-10 16:34:57.184  Updating column: Num_Accessed=2 where ID=2
-2014-01-10 16:34:57.199  Record(s) updated
-2014-01-10 16:34:57.2  Request fulfilled
+2014-01-13 01:42:42.135  Requesting service on URLs: [http://www.ask.com, http://www.google.com, http://www.yahoo.com]
+2014-01-13 01:42:42.142  Connecting to the database
+2014-01-13 01:42:42.484  Queying database for: http://www.ask.com
+2014-01-13 01:42:42.491  Updating column: Num_Accessed=2 where ID=19
+2014-01-13 01:42:42.493  Record(s) updated
+2014-01-13 01:42:42.493  Queying database for: http://www.google.com
+2014-01-13 01:42:42.495  Updating column: Num_Accessed=3 where ID=1
+2014-01-13 01:42:42.496  Record(s) updated
+2014-01-13 01:42:42.496  Queying database for: http://www.yahoo.com
+2014-01-13 01:42:42.498  Updating column: Num_Accessed=3 where ID=2
+2014-01-13 01:42:42.498  Record(s) updated
+2014-01-13 01:42:42.5  Request fulfilled
+

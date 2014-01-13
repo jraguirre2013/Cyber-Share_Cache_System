@@ -13,6 +13,7 @@ public class VISKO_Query
 		String request=x.encodeJSONObj(json);
 		String result=submitVISKORequest(request);
 		result=x.decodeJSONReq(result);
+		result=x.getURL(result);
 		String hash=web.convertStringToHash(web.convertWebToString(url, connection));
 		if(status.equals("maintain"))
 		{

@@ -5,6 +5,7 @@ import java.sql.Timestamp;
 
 public class Output_Writer 
 {
+//TODO this line specifies the location and name of the output text file
 	protected String path="/Users/joseph304/Documents/workspace/Cyber-ShARE_Cache/Orion Cache-Log.txt";
 	public void writeOutput(String message)
 	{
@@ -13,7 +14,14 @@ public class Output_Writer
 		try 
 		{
 			output = new FileWriter(path,true);
-			output.write(new Timestamp(timestamp.getTime())+"  "+message+"\n");
+			if(message.equals("\n"))
+			{
+				output.write("\n");
+			}
+			else
+			{
+				output.write(new Timestamp(timestamp.getTime())+"  "+message+"\n");			
+			}
 			output.close();
 		} 
 		catch (IOException e) 

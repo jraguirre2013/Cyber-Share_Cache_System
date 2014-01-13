@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 public class Database_Connection 
 {
+//TODO these three lines specify the information needed by the database such as the host location, the password and user name
 	protected String host="jdbc:mysql://localhost:3306/Cyber-ShARE_CacheDB";
 	private String pass="mypass";
 	private String userName="root";
@@ -45,7 +46,7 @@ public class Database_Connection
 				query.createVISKORequest(url, connection,"add");
 				result=this.queryDatabase(connection, url);
 			}
-			writer.writeOutput(e.getMessage());
+			e.getMessage();
 		}
 		return result;
 	}

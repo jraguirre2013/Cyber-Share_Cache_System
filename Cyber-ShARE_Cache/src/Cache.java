@@ -18,6 +18,7 @@ public class Cache
 		result=json.createJSONLarge(searchResults);
 		URLEncoder.encode(result);
 		writer.writeOutput("Request fulfilled");
+		writer.writeOutput("\n");
 		return result;
 	}
 }

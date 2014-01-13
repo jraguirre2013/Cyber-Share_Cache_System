@@ -19,7 +19,7 @@ public class Unreachable_Search
 		}
 		catch(SQLException e)
 		{
-			System.out.println(e.getMessage());
+			e.getMessage();
 		}
 		return unreach;
 	}

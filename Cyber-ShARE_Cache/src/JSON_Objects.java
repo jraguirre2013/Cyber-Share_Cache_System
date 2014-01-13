@@ -19,19 +19,7 @@ public class JSON_Objects
 	}
 	public String decodeJSONReq(String request)
 	{
-		int i=0;
-		String decoded="";
-		while(i<request.length())
-		{
-			if(request.charAt(i)=='=')
-			{
-				i+=1;
-				break;
-			}
-			i++;
-		}
-		decoded=URLDecoder.decode(request.substring(i,request.length()));
-		return decoded;
+		return URLDecoder.decode(request);
 	}
 	public String getURL(String json)
 	{

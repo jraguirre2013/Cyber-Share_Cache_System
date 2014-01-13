@@ -19,7 +19,7 @@ public class All_Search
 		}
 		catch(SQLException e)
 		{
-			System.out.println(e.getMessage());
+			e.getMessage();
 		}
 		return all;
 	}
